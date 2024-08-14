@@ -36,3 +36,17 @@ Add borders, centering, and flexbox layout for improved styling
 4. Removed bullet points from the unordered list in the nav section.
 5. Applied a flex layout to the nav section for centered alignment of list items.
 6. Ensured the nav section spans the full width of the page.
+
+
+
+### Fourth Commit
+
+Update styles for aside, layout, and headings in the webpage
+
+### Changes Made
+
+1. Set all text in the aside section to `c-green`.
+2. Changed link colors in the aside to `c-red` and hover color to `c-blue`.
+3. Established a maximum width of 800px for the page layout and centered it.
+4. Added a top padding of 50px for all headings (h2 and h3) within the article.
+5. Adjusted the layout of the main content section to position the 'related links' to the right of the article.

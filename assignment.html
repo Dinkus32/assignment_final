@@ -27,6 +27,8 @@
             background-color: var(--c-background-color);
             color: var(--base-font-color);
             font-family: 'Open Sans Condensed', sans-serif;
+            max-width: 800px; /* Set maximum width of the page */
+            margin: 0 auto; /* Center the page */
         }
 
         header {
@@ -66,34 +68,31 @@
         main {
             color: var(--base-font-color);
             padding: 20px;
+            display: flex; /* Flexbox for layout */
         }
 
         article {
+            flex: 1; /* Allow article to take available space */
             border: 3px solid var(--c-cyan); /* Border around the article */
             padding: 20px;
-            margin-bottom: 20px; /* Space between articles */
+            margin-right: 20px; /* Space between article and aside */
         }
 
-        article h3 {
-            border: 3px solid var(--c-cyan); /* Border around subsection heading */
-            padding: 10px;
-            margin-top: 0; /* Remove top margin */
-        }
-
-        article p {
-            border-style: solid;
-            border-width: 3px;
-            border-color: var(--c-cyan);
-            padding: 10px;
+        article h2, article h3 {
+            padding-top: 50px; /* Top padding for all headings */
         }
 
         aside {
-            margin-top: 20px;
+            color: var(--c-green); /* Set text color in aside to c-green */
+            max-width: 250px; /* Limit width of aside */
         }
 
-        aside ul {
-            list-style-type: none; /* Remove bullet points */
-            padding: 0; /* Remove default padding */
+        aside a {
+            color: var(--c-red); /* Set link color in aside to c-red */
+        }
+
+        aside a:hover {
+            color: var(--c-blue); /* Change link color on hover to c-blue */
         }
     </style>
 </head>
