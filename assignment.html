@@ -29,18 +29,28 @@
             font-family: 'Open Sans Condensed', sans-serif;
         }
 
-        header, footer {
+        header {
             background-color: var(--c-background-highlights);
-            color: var(--base-font-color);
+            color: var(--c-yellow);
+            text-align: center;
+            font-size: 150%;
             padding: 20px;
         }
 
+        nav {
+            display: flex;
+            justify-content: center; /* Center the nav items */
+            background-color: var(--c-background-highlights);
+        }
+
         nav ul {
-            list-style-type: none;
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding */
+            margin: 0; /* Remove default margin */
+            width: 100%; /* Make the nav take the full width */
         }
 
         nav ul li {
-            display: inline;
             margin-right: 20px;
         }
 
@@ -58,6 +68,18 @@
             padding: 20px;
         }
 
+        article {
+            border: 3px solid var(--c-cyan); /* Border around the article */
+            padding: 20px;
+            margin-bottom: 20px; /* Space between articles */
+        }
+
+        article h3 {
+            border: 3px solid var(--c-cyan); /* Border around subsection heading */
+            padding: 10px;
+            margin-top: 0; /* Remove top margin */
+        }
+
         article p {
             border-style: solid;
             border-width: 3px;
@@ -67,6 +89,11 @@
 
         aside {
             margin-top: 20px;
+        }
+
+        aside ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding */
         }
     </style>
 </head>
